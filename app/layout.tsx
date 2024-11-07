@@ -2,12 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import { Nunito } from "next/font/google";
-const nunito = Nunito({
-  weight: ["500", "600", "800"],
-  subsets: ["latin"],
-});
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
